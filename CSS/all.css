@@ -1,0 +1,61 @@
+/*This script affects the header and the main containers of the pages*/
+body {
+  background-color: #F8EFE4;
+}
+
+.header {
+  width: 99.5%;
+  max-height: 8%;
+  background-color: #282120;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header nobr {
+  float: left;
+}
+
+.header a {
+  float: right;
+}
+
+.header a, nobr {
+  color: white;
+  text-align: center;
+  font-size: 19px;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+.header .headerlinks {
+  background-color: #FAD02C;
+  color: white;
+}
+
+.content, .buttons {
+  position: static;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.content {
+  height: 62%;
+}
+
+.buttons {
+  height: 13%;
+}
+
+.buttons p {
+  color: red;
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+
+.buttons button {
+  margin-left: 15px;
+  margin-right: 15px;
+}

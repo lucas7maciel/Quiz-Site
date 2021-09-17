@@ -1,0 +1,19 @@
+
+.equation {
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+
+.equation p {
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	color: #2F4F4F;
+}
+
+.top {
+	margin-top: 3%;
+}
+
+.bottom {
+	margin-bottom: 3%;
+}

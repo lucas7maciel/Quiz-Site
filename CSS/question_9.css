@@ -1,0 +1,15 @@
+
+.checkBContainer {
+	display: flex;
+	flex-wrap: wrap;
+	width: 900px;
+	margin: auto;
+	margin-top: 85px;
+	text-align: left;
+}
+
+.checkBContainer div {
+	width: 180px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}

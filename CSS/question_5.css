@@ -1,0 +1,69 @@
+
+h2 {
+	margin-bottom: 45px;
+}
+
+.line{
+	width: 50%;
+	margin: auto;
+	display: flex;
+}
+
+.line p {
+	flex: 0 0 35px;
+}
+
+.line div {
+	flex: 0 0 275px;
+}
+
+.field {
+	background-color: white;
+	border: 3px salmon solid;
+	height: 31px;
+	width: 275px;
+	margin: auto;
+	margin-top: 5px;
+}
+
+.fill {
+	height: 21px;
+	width: 265px;
+	margin: auto;
+	margin-top: 5px;
+	cursor: grab;
+}
+
+.holding {
+	border: solid #ccc 4px;
+}
+
+.hovered {
+	background: gray;
+	border-style: dashed;
+}
+
+.invisible {
+	display: none;
+}
+
+
+.img1 {
+	background-image: url("../media/q5_01.png");
+}
+
+.img2 {
+	background-image: url("../media/q5_02.png");
+}
+
+.img3 {
+	background-image: url("../media/q5_03.png");
+}
+
+.img4 {
+	background-image: url("../media/q5_04.png");
+}
+
+.img5 {
+	background-image: url("../media/q5_05.png");
+}

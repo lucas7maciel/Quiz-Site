@@ -1,0 +1,51 @@
+<DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Quiz Project</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../CSS/all.css">
+	<link rel="stylesheet" href="../CSS/question_2.css">
+	<script src="../javascript/general.js"></script>
+	<script src="../javascript/radio.js"></script>
+</head>
+<body>
+	<div class="header"></div>
+
+	<DIV class="content">
+
+	<h1>Question 2</h1>
+
+	<audio controls>
+		<source src="../media/q2_01.mp3" alt="Audio">
+	</audio>
+	<h2>What musical instrument is this?</h2>
+	<h3>Play the audio for this question</h3>
+
+	<div class="radioButtons">
+		<input type="radio" id="o1" name="rb" value="Harp">
+		<label for="o1">Harp</label>
+
+		<input type="radio" id="o2" name="rb" value="Xylophone">
+		<label for="o2">Xylophone</label>
+
+		<input type="radio" id="o3" name="rb" value="Clarinet">
+		<label for="o3">Clarinet</label>
+
+		<input type="radio" id="o4" name="rb" value="Ukulele">
+		<label for="o4">Ukulele</label>
+
+		<input type="radio" id="o5" name="rb" value="Bass">
+		<label for="o5">Bass</label>
+	</div>
+
+	</DIV>
+	<DIV class="buttons">
+
+	<p id="messages">Use the audio player to answer the question</p>
+	<button type="button" onclick="change(false)">Back</button>
+	<button type="button" onclick="setGrade('Clarinet')">Next</button>
+
+	</DIV>
+</body>
+</DOCTYPE>

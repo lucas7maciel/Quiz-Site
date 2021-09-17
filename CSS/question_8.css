@@ -1,0 +1,71 @@
+
+.pieceContainer {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	height: 318px;
+	width: 318px;
+}
+
+.field {
+	background-color: white;
+	height: 104px;
+	width: 104px;
+}
+
+.fill {
+	background-size: 100px 100px;
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	margin-top: 2px;
+	cursor: grab;
+}
+
+.holding {
+	border: solid #ccc 1px;
+}
+
+.hovered {
+	background: gray;
+}
+
+.invisible {
+	display: none;
+}
+
+.img1 {
+	background-image: url("../media/q8_01.jpg");
+}
+
+.img2 {
+	background-image: url("../media/q8_02.jpg");
+}
+
+.img3 {
+	background-image: url("../media/q8_03.jpg");
+}
+
+.img4 {
+	background-image: url("../media/q8_04.jpg");
+}
+
+.img5 {
+	background-image: url("../media/q8_05.jpg");
+}
+
+.img6 {
+	background-image: url("../media/q8_06.jpg");
+}
+
+.img7 {
+	background-image: url("../media/q8_07.jpg");
+}
+
+.img8 {
+	background-image: url("../media/q8_08.jpg");
+}
+
+.img9 {
+	background-image: url("../media/q8_09.jpg");
+}

@@ -1,0 +1,55 @@
+<DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Quiz Project</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../CSS/all.css">
+	<link rel="stylesheet" href="../CSS/question_4.css">
+	<script src="../javascript/general.js"></script>
+	<script src="../javascript/radio.js"></script>
+	<script src="../javascript/flag.js"></script>
+</head>
+<body>
+	<div class="header"></div>
+	<DIV class="content">
+
+	<h1>Question 4</h1>
+
+	<div class="flagContainer">
+		<img id="flag" src="../media/q4_01.png" alt="Flag">
+	</div>
+
+	<button type="button" onclick="changeFlag()">Change</button>
+	<h2>What country is this flag from?</h2>
+
+	<div class="radioButtons">
+		<input type="radio" name="rb" id="o1" value="Pakistan">
+		<label for="o1">Pakistan</label>
+
+		<input type="radio" name="rb" id="o2" value="Brazil">
+		<label for="o2">Brazil</label>
+
+		<input type="radio" name="rb" id="o3" value="Colombia">
+		<label for="o3">Colombia</label>
+
+		<input type="radio" name="rb" id="o4" value="Switzerland">
+		<label for="o4">Switzerland</label>
+
+		<input type="radio" name="rb" id="o5" value="South Africa">
+		<label for="o5">South Africa</label>
+
+		<input type="radio" name="rb" id="o6" value="Portugal">
+		<label for="o6">Portugal</label>		
+	</div>
+
+	</DIV>
+	<DIV class="buttons">
+
+	<p id="messages">You can change the flag twice</p>
+	<button type="button" onclick="change(false)">Back</button>
+	<button type="button" onclick="setGrade(getFlag())">Next</button>
+
+	</DIV>
+</body>
+</DOCTYPE>
