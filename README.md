@@ -2,6 +2,7 @@
 For my first web development project, I decided to create a website with some questions and puzzles.
 
 For the creation of the program, I got experience with HTML, CSS and Javascript. Each language is separated in its respective folder.
+No external libraries are required to run this code.
 
 ![alt text](https://i.pinimg.com/564x/1c/48/0d/1c480d5479b30a6e568ad346ea48b978.jpg)
 
